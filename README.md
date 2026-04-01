@@ -4,7 +4,7 @@ A user-friendly weather application built with **React** that allows users to ch
 
 ## Preview
 
-Test the live version [here](#)
+Test the live version [here](https://weather-app-hashim.vercel.app/)
 
 ![Weather App Preview](./preview/weather-app-preview.png)
 
