@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+  /* Remove blue tap effect on mobile */
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8fb8ff, #c2e9fb, #e0f7ff);
+}
+
+#root {
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  padding: 15px 5px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  color: #1e3a5f;
+  letter-spacing: 0.5px;
+}
+
+.footer-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #1d4ed8;
+}
