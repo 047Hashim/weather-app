@@ -1,0 +1,25 @@
+.forecasts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  flex-grow: 1;
+}
+
+.forecast-list {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.forecast-list::-webkit-scrollbar {
+  display: none;
+}
+/* The .forecast-card class is defined in ForecastCard component */
+.forecast-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
